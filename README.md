@@ -114,8 +114,7 @@ function Form() {
     setFirstName(event.target.value);
   }
 
-  function handleLastNameChange(event) {
-    setLastName(event.target.value);
+  function handleLastNameChange(event) { setLastName(event.target.value);
   }
 
   return (
